@@ -14,7 +14,7 @@ class SimpleBankAccountTest {
     private BankAccount bankAccount;
 
     @BeforeEach
-    void beforeEach(){
+    void beforeEach() {
         accountHolder = new AccountHolder("Mario", "Rossi", 1);
         bankAccount = new SimpleBankAccount(accountHolder, 0);
     }
