@@ -6,8 +6,8 @@ import java.util.Optional;
 
 public class CircularListImpl implements CircularList {
 
-    private int currentIndex = 0;
-    private final List<Integer> list = new ArrayList<>();
+    protected int currentIndex = 0;
+    protected final List<Integer> list = new ArrayList<>();
 
     @Override
     public void add(int element) {
